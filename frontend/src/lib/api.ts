@@ -13,7 +13,8 @@ import {
 } from '../types/api';
 
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000/api';
+  process.env.NEXT_PUBLIC_API_BASE_URL ||
+  'https://beep-assignment-8m15.onrender.com/api';
 
 export class ApiError extends Error {
   status: number;

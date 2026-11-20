@@ -11,7 +11,7 @@ import {
   HelpCircle,
   Layers,
 } from 'lucide-react';
-import { Job } from '@/types/api';
+import { Job } from '../types/api';
 
 interface JobCardProps {
   job: Job;

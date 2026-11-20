@@ -3,29 +3,29 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import {
   Navbar,
-} from '@/components/Navbar';
-import { JobCard } from '@/components/JobCard';
-import { SearchBar } from '@/components/SearchBar';
-import { FilterSidebar } from '@/components/FilterSidebar';
-import { Pagination } from '@/components/Pagination';
-import { AnalyticsView } from '@/components/AnalyticsView';
-import { LoadingSkeleton } from '@/components/LoadingSkeleton';
-import { EmptyState } from '@/components/EmptyState';
-import { ErrorState } from '@/components/ErrorState';
-import { useDebounce } from '@/hooks/useDebounce';
+} from '../components/Navbar';
+import { JobCard } from '../components/JobCard';
+import { SearchBar } from '../components/SearchBar';
+import { FilterSidebar } from '../components/FilterSidebar';
+import { Pagination } from '../components/Pagination';
+import { AnalyticsView } from '../components/AnalyticsView';
+import { LoadingSkeleton } from '../components/LoadingSkeleton';
+import { EmptyState } from '../components/EmptyState';
+import { ErrorState } from '../components/ErrorState';
+import { useDebounce } from '../hooks/useDebounce';
 import {
   fetchHealth,
   fetchJobs,
   fetchJobFilters,
   fetchAnalytics,
   ApiError,
-} from '@/lib/api';
+} from '../lib/api';
 import {
   JobListResponse,
   FilterFacets,
   AnalyticsResponse,
   HealthResponse,
-} from '@/types/api';
+} from '../types/api';
 import { SlidersHorizontal, X } from 'lucide-react';
 
 export default function Home() {

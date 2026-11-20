@@ -11,7 +11,7 @@ import {
   Sparkles,
   Info,
 } from 'lucide-react';
-import { AnalyticsResponse } from '@/types/api';
+import { AnalyticsResponse } from '../types/api';
 
 interface AnalyticsViewProps {
   analytics: AnalyticsResponse | null;

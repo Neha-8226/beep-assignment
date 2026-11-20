@@ -10,7 +10,7 @@ import {
   Layers,
   Check,
 } from 'lucide-react';
-import { FilterFacets } from '@/types/api';
+import { FilterFacets } from '../types/api';
 
 interface FilterSidebarProps {
   facets: FilterFacets | null;

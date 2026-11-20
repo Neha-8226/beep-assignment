@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Briefcase, BarChart3, RefreshCw } from 'lucide-react';
-import { HealthResponse } from '@/types/api';
+import { HealthResponse } from '../types/api';
 
 interface NavbarProps {
   activeTab: 'jobs' | 'analytics';

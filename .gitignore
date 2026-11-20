@@ -61,3 +61,4 @@ out/
 .idea/
 .DS_Store
 Thumbs.db
+frontend/package-lock.json
